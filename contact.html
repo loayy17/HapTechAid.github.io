@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Contact - Calvin</title>
+    <title>Category - HapTechAid</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -17,17 +17,19 @@
     ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script defer src="js/fontawesome/all.min.js"></script>
+    <script src="js/script.js" defer></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Hap.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Hap.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Hap.png">
     <link rel="manifest" href="site.webmanifest">
 
 </head>
@@ -60,17 +62,14 @@
 
                 <ul class="s-header__nav">
                     <li><a href="index.html" title="">Home</a></li>
-                    <li class="has-children">
+                    <li class="has-children current">
                         <a href="#0" title="">Categories</a>
                         <ul class="sub-menu">
-                            <li><a href="category.html">Vision Impairment</a></li>
-                            <li><a href="category.html">Deaf or hard of hearing</a></li>
-                            <li><a href="category.html">Mental health conditions</a></li>
-                            <li><a href="category.html">Intellectual disability</a></li>
-                            <li><a href="category.html">Acquired brain injury</a></li>
-                            <li><a href="category.html">Autism spectrum disorder</a></li>
-                            <li><a href="category.html">Physical disability.</a></li>
-                            <li><a href="category.html">Relationship</a></li>
+                            <li><a href="VisionImpairment.html">Vision Impairment</a></li>
+                            <li><a href="DeafOrHardOfHearing.html">Deaf or hard of hearing</a></li>
+                            <li><a href="MentalHealthConditions.html">Mental health conditions</a></li>
+                            <li><a href="PhysicalDisability.html">Physical disability</a></li>
+                            <li><a href="ComfortTools.html">Comfort Tools</a></li>
                         </ul>
                     </li>
                     <li class="has-children">
@@ -81,9 +80,9 @@
                             <li><a href="#0">Standard Post</a></li>
                         </ul>
                     </li>
-                    <li><a href="styles.html" title="">Styles</a></li>
+                    <li><a href="https://forms.gle/wF2hkYEXrJyjwfTW6" title="">Help Us</a></li>
                     <li><a href="about.html" title="">About</a></li>
-                    <li class="current"><a href="contact.html" title="">Contact</a></li>
+                    <li><a href="contact.html" title="">Contact</a></li>
                 </ul> <!-- end s-header__nav -->
 
                 <a href="#0" title="Close Menu" class="s-header__overlay-close close-mobile-menu">Close</a>
@@ -125,98 +124,130 @@
     ================================================== -->
     <section class="s-content">
 
-        <div class="row">
-            <div class="column large-12">
 
-                <article class="s-content__entry">
+        <!-- page header
+        ================================================== -->
+        <div class="s-pageheader">
+            <div class="row">
+                <div class="column large-12">
+                    <h1 class="page-title">
+                        <span class="page-title__small-type">Category</span>
+                        <h1>Contact Us</h1>
+                    </h1>
+                </div>
+            </div>
+        </div> <!-- end s-pageheader-->
+        
 
-                    <div class="s-content__media">
-                        <img src="images/thumbs/contact/contact-1050.jpg" 
-                                srcset="images/thumbs/contact/contact-2100.jpg 2100w, 
-                                        images/thumbs/contact/contact-1050.jpg 1050w, 
-                                        images/thumbs/contact/contact-525.jpg 525w" sizes="(max-width: 2100px) 100vw, 2100px" alt="">
-                    </div> <!-- end s-content__media -->
+        <!-- masonry
+        ================================================== -->
+        <div class="s-bricks s-bricks--half-top-padding">
 
-                    <div class="s-content__entry-header">
-                        <h1 class="s-content__title">Get In Touch With Us.</h1>
-                    </div> <!-- end s-content__entry-header -->
+            <div class="masonry">
+                <div class="bricks-wrapper h-group">
 
-                    <div class="s-content__primary">
+                    <div class="grid-sizer"></div>
 
-                        <div class="s-content__page-content">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
 
-                            <p class="lead">
-                            Lorem ipsum Deserunt est dolore Ut Excepteur nulla occaecat magna occaecat Excepteur nisi esse veniam 
-                            dolor consectetur minim qui nisi esse deserunt commodo ea enim ullamco non voluptate consectetur minim 
-                            aliquip Ut incididunt amet ut cupidatat.
-                            </p> 
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                            <a href="#0" class="thumb-link">
+                                <img src="images\myPic.jpg" 
+                                     srcset="images\myPic.jpg 1x, images\myPic.jpg 2x" alt="">
+                            </a>
+                        </div> <!-- end entry__thumb -->
+    
+                        <div class="entry__text">
+                            <div class="entry__excerpt">
+                                <p style="text-align: center; font-size: 150%;"> <i>Loay M Al-Hindi</i></p>
+                                <button onclick="window.location.href='mailto: loay1alhindi2@gmail.com';" style="background-color: white;"><img src="https://th.bing.com/th/id/R.3298ee40773fc9938af6f59a6dce0734?rik=CRCnV0vzEyRDeA&pid=ImgRaw&r=0" style="width: 50px;"></button>
+                                <button onclick="window.location.href='https://www.facebook.com/loayy17';" style="background-color: white;"><img src="images/facebook-logo-2021.svg" style="width: 50px;"></button>
+                                <button onclick="window.location.href='https://www.instagram.com/loayy17/';" style="background-color: white;"><img src="https://th.bing.com/th/id/OIP.JtmXSh_uyZBaTg1eXd-NtgAAAA?pid=ImgDet&rs=1" style="width: 50px;"></button>
+                                <button onclick="window.location.href='https://wa.me/962799508218'" style="background-color: white;"><img src="https://th.bing.com/th/id/OIP.QpjCtdwhkGO3m-OMqblIsQHaHa?pid=ImgDet&rs=1" style="width: 50px;"></button>
+                                <br><br><br><br><br><br>
+                            </div>
+                        </div> <!-- end entry__text -->
+                    
+                    </article> <!-- end article -->
 
-                            <p>
-                            Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit 
-                            nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam 
-                            dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum 
-                            sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco 
-                            ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat 
-                            occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
-                            </p>
-
-                            <br>
-
-                            <div class="row block-large-1-2 block-tab-full s-content__blocks">
-                                <div class="column">
-                                    <h4>Where to Find Us</h4>
-                                    <p>
-                                    1600 Amphitheatre Parkway<br>
-                                    Mountain View, CA<br>
-                                    94043 US
-                                    </p>
-                                </div>
-
-                                <div class="column">
-                                    <h4>Contact Info</h4>
-                                    <p>
-                                    someone@yourdomain.com<br>
-                                    info@yourdomain.com <br>
-                                    Phone: (+63) 555 1212
-                                    </p> 
-                                </div>
-                            </div> <!-- end s-content__blocks -->
-
-                            <form name="cForm" id="cForm" class="s-content__form" method="post" action="">
-                                <fieldset>
-
-                                    <div class="form-field">
-                                        <input name="cName" type="text" id="cName" class="h-full-width h-remove-bottom" placeholder="Your Name" value="">
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                            <a href="#0" class="thumb-link">
+                                <img src="images\Yousef.jpg" 
+                                     srcset="images\Yousef.jpg 1x, images\Yousef.jpg 2x" alt="">
+                                    </a>
+                                </div> <!-- end entry__thumb -->
+            
+                                <div class="entry__text">
+                                    <div class="entry__excerpt">
+                                        <p style="text-align: center; font-size: 150%;"> <i>Yousef Abdo</i></p>
+                                        <button onclick="window.location.href='mailto: loay1alhindi2@gmail.com';" style="background-color: white;"><img src="https://th.bing.com/th/id/R.3298ee40773fc9938af6f59a6dce0734?rik=CRCnV0vzEyRDeA&pid=ImgRaw&r=0" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://www.facebook.com/loayy17';" style="background-color: white;"><img src="images/facebook-logo-2021.svg" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://www.instagram.com/loayy17/';" style="background-color: white;"><img src="https://th.bing.com/th/id/OIP.JtmXSh_uyZBaTg1eXd-NtgAAAA?pid=ImgDet&rs=1" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://wa.me/962799508218'" style="background-color: white;"><img src="https://th.bing.com/th/id/OIP.QpjCtdwhkGO3m-OMqblIsQHaHa?pid=ImgDet&rs=1" style="width: 50px;"></button>
+                                        <br><br><br><br><br><br>
                                     </div>
-
-                                    <div class="form-field">
-                                        <input name="cEmail" type="text" id="cEmail" class="h-full-width h-remove-bottom" placeholder="Your Email" value="">
+                                </div> <!-- end entry__text -->
+                            
+                    </article> <!-- end article -->
+    
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                            <a href="#0" class="thumb-link">
+                                <img src="images\AliSaleh.jpg" 
+                                     srcset="images\AliSaleh.jpg 1x, images\AliSaleh.jpg 2x" alt="">
+                                    </a>
+                                </div> <!-- end entry__thumb -->
+            
+                                <div class="entry__text">
+                                    <div class="entry__excerpt">
+                                        <p style="text-align: center; font-size: 150%;"> <i>Ali Saleh</i></p>
+                                        <button onclick="window.location.href='mailto: loay1alhindi2@gmail.com';" style="background-color: white;"><img src="https://th.bing.com/th/id/R.3298ee40773fc9938af6f59a6dce0734?rik=CRCnV0vzEyRDeA&pid=ImgRaw&r=0" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://www.facebook.com/loayy17';" style="background-color: white;"><img src="images/facebook-logo-2021.svg" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://www.instagram.com/loayy17/';" style="background-color: white;"><img src="https://th.bing.com/th/id/OIP.JtmXSh_uyZBaTg1eXd-NtgAAAA?pid=ImgDet&rs=1" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://wa.me/962799508218'" style="background-color: white;"><img src="https://th.bing.com/th/id/OIP.QpjCtdwhkGO3m-OMqblIsQHaHa?pid=ImgDet&rs=1" style="width: 50px;"></button>
+                                        <br><br><br><br><br><br>
                                     </div>
+                                </div> <!-- end entry__text -->
+                            
+                    </article> <!-- end article -->
 
-                                    <div class="form-field">
-                                        <input name="cWebsite" type="text" id="cWebsite" class="h-full-width h-remove-bottom" placeholder="Website"  value="">
+                    <article class="brick entry" data-aos="fade-up">
+    
+                        <div class="entry__thumb">
+                            <a href="#0" class="thumb-link">
+                                <img src="images\myPic.jpg" 
+                                     srcset="images\myPic.jpg 1x, images\myPic.jpg 2x" alt="">
+                                    </a>
+                                </div> <!-- end entry__thumb -->
+            
+                                <div class="entry__text">
+                                    <div class="entry__excerpt">
+                                        <p style="text-align: center; font-size: 150%;"> <i>Ali Al-Quran</i></p>
+                                        <button onclick="window.location.href='mailto: loay1alhindi2@gmail.com';" style="background-color: white;"><img src="https://th.bing.com/th/id/R.3298ee40773fc9938af6f59a6dce0734?rik=CRCnV0vzEyRDeA&pid=ImgRaw&r=0" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://www.facebook.com/loayy17';" style="background-color: white;"><img src="images/facebook-logo-2021.svg" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://www.instagram.com/loayy17/';" style="background-color: white;"><img src="https://th.bing.com/th/id/OIP.JtmXSh_uyZBaTg1eXd-NtgAAAA?pid=ImgDet&rs=1" style="width: 50px;"></button>
+                                        <button onclick="window.location.href='https://wa.me/962799508218'" style="background-color: white;"><img src="https://th.bing.com/th/id/OIP.QpjCtdwhkGO3m-OMqblIsQHaHa?pid=ImgDet&rs=1" style="width: 50px;"></button>
+                                        <br><br><br><br><br><br>
                                     </div>
+                                </div> <!-- end entry__text -->
+                            
+                    </article> <!-- end article -->
 
-                                    <div class="message form-field">
-                                        <textarea name="cMessage" id="cMessage" class="h-full-width" placeholder="Your Message" ></textarea>
-                                    </div>
+                </div> <!-- end brick-wrapper -->
 
-                                    <br>
-                                    <button type="submit" class="submit btn btn--primary h-full-width">Submit</button>
-
-                                </fieldset>
-                            </form> <!-- end form -->
-
-                        </div> <!-- end s-entry__page-content -->
-
-                    </div> <!-- end s-content__primary -->
-                </article> <!-- end entry -->
-
-            </div> <!-- end column -->
-        </div> <!-- end row -->
+            </div> <!-- end masonry -->
+        </div> <!-- end s-bricks -->
 
     </section> <!-- end s-content -->
-
 
     <!-- footer
     ================================================== -->
@@ -231,11 +262,7 @@
                     <h5>About Our Site</h5>
 
                     <p>
-                    Lorem ipsum Ut velit dolor Ut labore id fugiat in ut 
-                    fugiat nostrud qui in dolore commodo eu magna Duis 
-                    cillum dolor officia esse mollit proident Excepteur 
-                    exercitation nulla. Lorem ipsum In reprehenderit 
-                    commodo aliqua irure.
+                        We are students from Luminus University majoring in robotic process automation, and we made this site to help people with special needs to know the appropriate medical devices and the necessary examinations for their health
                     </p>
 
                 </div> <!-- end s-footer__info -->
@@ -245,11 +272,10 @@
                     <h5>Site Links</h5>
 
                     <ul>
-                        <li><a href="#0">About Us</a></li>
-                        <li><a href="#0">Blog</a></li>
-                        <li><a href="#0">FAQ</a></li>
-                        <li><a href="#0">Terms</a></li>
-                        <li><a href="#0">Privacy Policy</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">ContactUS</a></li>
+                        <li><a href="single-video.html">Our goal</a></li>
+                        <li><a href="index.html">Link</a></li>
                     </ul>
 
                 </div> <!-- end s-footer__site-links -->  
@@ -259,30 +285,28 @@
                     <h5>Follow Us</h5>
 
                     <ul>
-                        <li><a href="#0">Twitter</a></li>
-                        <li><a href="#0">Facebook</a></li>
-                        <li><a href="#0">Dribbble</a></li>
-                        <li><a href="#0">Pinterest</a></li>
-                        <li><a href="#0">Instagram</a></li>
+                        <li><a href="https://twitter.com/LoayAlhindi">Twitter</a></li>
+                        <li><a href="http://www.facebook.com/loayy17">Facebook</a></li>
+                        <li><a href="https://dribbble.com/loayy17">Dribbble</a></li>
+                        <li><a href="https://www.pinterest.com/loay1hindi2/">Pinterest</a></li>
+                        <li><a href="http://www.instagram.com/loayy17">Instagram</a></li>
                     </ul>
 
                 </div> <!-- end s-footer__social links --> 
 
                 <div class="column large-3 medium-6 tab-12 s-footer__subscribe">
 
-                    <h5>Sign Up for Newsletter</h5>
+                    <h5>Help Up</h5>
 
-                    <p>Signup to get updates on articles, interviews and events.</p>
+                    <p>Do You Like Help Us ? </p>
 
                     <div class="subscribe-form">
                 
                         <form id="mc-form" class="group" novalidate="true">
-
-                            <input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Your Email Address" required=""> 
                 
-                            <input type="submit" name="subscribe" value="subscribe" >
-                
-                            <label for="mc-email" class="subscribe-message"></label>
+                            <button onclick="window.location.href='https://forms.gle/wF2hkYEXrJyjwfTW6';" style="color: white;">
+                                Click Here
+                              </button>
                 
                         </form>
 
@@ -298,8 +322,8 @@
             <div class="row">
                 <div class="column">
                     <div class="ss-copyright">
-                        <span>© Copyright Calvin 2020</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                        <span>© Copyright HapTeckAid 2023</span> 
+                        <span>Design by <a href="http://www.facebook.com/loayy17">Loay M Al-Hindi</a></span>
                     </div> <!-- end ss-copyright -->
                 </div>
             </div> 
@@ -313,12 +337,14 @@
 
    </footer> <!-- end s-footer -->
 
-
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    
+      
 
 </body>
 

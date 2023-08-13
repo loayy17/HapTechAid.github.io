@@ -1,90 +1,4 @@
-/* =================================================================== 
- * Calvin Main Stylesheet
- * Template Ver. 1.0.0
- * 10-07-2020
- * ------------------------------------------------------------------
- *
- * TOC:
- * # settings and variables
- *      ## fonts
- *      ## colors
- *      ## vertical spacing and typescale
- *      ## grid variables
- *  # normalize
- *  # basic/base setup styles
- *      ## media
- *      ## typography resets
- *      ## links
- *      ## inputs
- *  # Grid v3.0.0
- *      ## medium screen devices
- *      ## tablets
- *      ## mobile devices
- *      ## small mobile devices <= 400px
- *  # block grids
- *      ## block grids - medium screen devices
- *      ## block grids - tablets
- *      ## block grids - mobile devices 
- *      ## block grids - small mobile devices <= 400px
- *  # MISC
- *  # custom grid, block grid STACK breakpoints
- *  # base style overrides
- *      ## links
- *  # typography & general theme styles
- *      ## lists
- *      ## responsive video container
- *      ## floated image
- *      ## tables
- *      ## spacing
- *  # preloader
- *      ## page loaded
- *  # forms
- *      ## style placeholder text
- *      ## change autocomplete styles in Chrome 
- *  # buttons
- *  # additional components
- *      ## additional typo styles
- *      ## skillbars
- *      ## alert box
- *      ## pagination
- *  # common and reusable styles
- *      ## animation stuff
- *      ## close button for search & mobile nav
- *      ## bricks masonry
- *      ## masonry entries
- *  # site header
- *      ## header logo
- *      ## main navigation
- *      ## header-toggle
- *      ## header-search
- *      ## search triggers
- *  # hero
- *      ## hero slider
- *      ## hero social
- *      ## hero slider nav arrows
- *  # content wrap
- *      ## pageheader
- *      ## content media
- *      ## content entry header
- *      ## content primary
- *  # footer
- *      ## footer main
- *      ## footer bottom
- *      ## go top
- *  # blog styles and blog components
- *      ## blog comments 
- *
- * ------------------------------------------------------------------ */
 
-
-/* ===================================================================
- * # settings and variables
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## fonts
- * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text&family=Inter:wght@300;400;500;600;700&display=swap");
 
 :root {
@@ -325,8 +239,6 @@ main {
     display: block;
 }
 
-/* Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari. */
 
 h1 {
     font-size: 2em;
@@ -399,14 +311,12 @@ code, kbd, samp {
     /* 2 */
 }
 
-/* Add the correct font size in all browsers. */
 
 small {
     font-size: 80%;
 }
 
-/* Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers. */
+
 
 sub, sup {
     font-size: 75%;
@@ -423,22 +333,10 @@ sup {
     top: -0.5em;
 }
 
-/* ------------------------------------------------------------------- 
- * ## embedded content
- * ------------------------------------------------------------------- */
-
-/* Remove the border on images inside links in IE 10. */
 
 img {
     border-style: none;
 }
-
-/* ------------------------------------------------------------------- 
- * ## forms
- * ------------------------------------------------------------------- */
-
-/* 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari. */
 
 button, input, optgroup, select, textarea {
     font-family: inherit;
